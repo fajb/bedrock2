@@ -896,7 +896,7 @@ Section WithParameters.
     all : f_equal; ZnWords.
 
     Unshelve.
-    all : constructor.
+    all : constructor || assumption.
   Qed.
 
   Require Import Utf8.
